@@ -483,6 +483,7 @@ simpleContentTypes =
     [ "application/x-www-form-urlencoded"
     , "multipart/form-data"
     , "text/plain"
+    , "application/json"
     ]
 
 
@@ -493,6 +494,9 @@ simpleMethods =
     [ "GET"
     , "HEAD"
     , "POST"
+    , "PUT"
+    , "PATCH"
+    , "DELETE"
     ]
 
 isSimple ∷ HTTP.Method → HTTP.RequestHeaders → Bool
