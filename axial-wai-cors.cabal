@@ -3,18 +3,19 @@
 -- Copyright © 2014 AlephCloud Systems, Inc.
 -- ------------------------------------------------------ --
 
-Name: wai-cors
+Name: axial-wai-cors
 Version: 0.2.5
 Synopsis: CORS for WAI
 
 Description:
+    A hacked version of Lars Kuhtz's original wai-cors library.
     This package provides an implemenation of
     Cross-Origin resource sharing (CORS) for
     <http://hackage.haskell.org/package/wai Wai>
     that aims to be compliant with <http://www.w3.org/TR/cors>.
 
-Homepage: https://github.com/larskuhtz/wai-cors
-Bug-reports: https://github.com/larskuhtz/wai-cors/issues
+Homepage: https://github.com/AxialExchange//wai-cors
+Bug-reports: https://github.com/AxialExchange//wai-cors/issues
 License: MIT
 License-file: LICENSE
 Author: Lars Kuhtz <lakuhtz@gmail.com>
@@ -37,12 +38,12 @@ data-files:
 
 source-repository head
     type: git
-    location: https://github.com/larskuhtz/wai-cors
+    location: https://github.com/AxialExchange/wai-cors.git
     branch: master
 
 source-repository this
     type: git
-    location: https://github.com/larskuhtz/wai-cors
+    location: https://github.com/AxialExchange//wai-cors
     tag: 0.2.5
 
 flag transformers-3
