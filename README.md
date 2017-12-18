@@ -1,3 +1,6 @@
+Update by Ievgen on 18th of December, 2017:
+I can't see this project used anywhere on the BE. If you find out that this project is used, add a comment. If you find out it's not used in a hear from now, remove this project.
+
 [![Build Status](https://travis-ci.org/larskuhtz/wai-cors.svg?branch=master)](https://travis-ci.org/larskuhtz/wai-cors)
 
 Cross-Origin Resource Sharing (CORS) For Wai
